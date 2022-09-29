@@ -1,17 +1,126 @@
-<mxfile host="app.diagrams.net" modified="2022-09-29T01:41:02.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="0C_8pFO1G1p26N9wgANW" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-29T02:02:25.058Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="02_NpUXLqphQZIRjThWN" version="20.3.3" type="github">
   <diagram name="Page-1" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
     <mxGraphModel dx="1421" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="j-hrNfwqryrFLlmtQv2E-1" value="Client-融享客Web" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="210" y="60" width="250" height="690" as="geometry" />
+          <mxGeometry x="210" y="60" width="250" height="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-5" value="待联系列表(企业/普通)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j-hrNfwqryrFLlmtQv2E-1">
+          <mxGeometry x="60" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j-hrNfwqryrFLlmtQv2E-1" source="j-hrNfwqryrFLlmtQv2E-12" target="j-hrNfwqryrFLlmtQv2E-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-12" value="渲染列表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="j-hrNfwqryrFLlmtQv2E-1">
+          <mxGeometry x="60" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-14" value="点击轮呼开关" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="j-hrNfwqryrFLlmtQv2E-1">
+          <mxGeometry x="60" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-32" value="收到下一个联系拨叫信息开始拨叫" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j-hrNfwqryrFLlmtQv2E-1">
+          <mxGeometry x="50" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-50" value="收到shutdown时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j-hrNfwqryrFLlmtQv2E-1">
+          <mxGeometry x="50" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j-hrNfwqryrFLlmtQv2E-2" value="Http-Server rxk_saas" style="swimlane;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="460" y="60" width="240" height="690" as="geometry" />
+          <mxGeometry x="460" y="60" width="240" height="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j-hrNfwqryrFLlmtQv2E-2" source="j-hrNfwqryrFLlmtQv2E-6" target="j-hrNfwqryrFLlmtQv2E-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-6" value="分页查询联系人表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="j-hrNfwqryrFLlmtQv2E-2">
+          <mxGeometry x="60" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-10" value="封装数据" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="j-hrNfwqryrFLlmtQv2E-2">
+          <mxGeometry x="60" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-18" value="推送startLoopCallSocket&amp;nbsp;事件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="j-hrNfwqryrFLlmtQv2E-2">
+          <mxGeometry x="50" y="315" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j-hrNfwqryrFLlmtQv2E-3" value="Socket-Server rxk_message" style="swimlane;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="700" y="60" width="230" height="690" as="geometry" />
+          <mxGeometry x="700" y="60" width="400" height="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j-hrNfwqryrFLlmtQv2E-3" source="j-hrNfwqryrFLlmtQv2E-16" target="j-hrNfwqryrFLlmtQv2E-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-16" value="收到开启轮呼" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="j-hrNfwqryrFLlmtQv2E-3">
+          <mxGeometry x="60" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j-hrNfwqryrFLlmtQv2E-3" source="j-hrNfwqryrFLlmtQv2E-20" target="j-hrNfwqryrFLlmtQv2E-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-20" value="分批缓存轮呼计划(500),写入队列" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="j-hrNfwqryrFLlmtQv2E-3">
+          <mxGeometry x="60" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j-hrNfwqryrFLlmtQv2E-3" source="j-hrNfwqryrFLlmtQv2E-22" target="j-hrNfwqryrFLlmtQv2E-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j-hrNfwqryrFLlmtQv2E-3" source="j-hrNfwqryrFLlmtQv2E-22" target="j-hrNfwqryrFLlmtQv2E-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-22" value="poll头部元素" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="j-hrNfwqryrFLlmtQv2E-3">
+          <mxGeometry x="60" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-27" value="即为下一个联系人" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="j-hrNfwqryrFLlmtQv2E-3">
+          <mxGeometry x="60" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-29" value="不为空" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="j-hrNfwqryrFLlmtQv2E-3">
+          <mxGeometry x="90" y="655" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-44" value="则查询下一批待联系,&amp;nbsp;并offer进队列" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="j-hrNfwqryrFLlmtQv2E-3">
+          <mxGeometry x="260" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-47" value="为空" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="j-hrNfwqryrFLlmtQv2E-3">
+          <mxGeometry x="200" y="595" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="j-hrNfwqryrFLlmtQv2E-8" target="j-hrNfwqryrFLlmtQv2E-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-8" value="筛选条件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="j-hrNfwqryrFLlmtQv2E-5" target="j-hrNfwqryrFLlmtQv2E-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="135" as="sourcePoint" />
+            <mxPoint x="520" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="j-hrNfwqryrFLlmtQv2E-10" target="j-hrNfwqryrFLlmtQv2E-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;" edge="1" parent="1" source="j-hrNfwqryrFLlmtQv2E-18" target="j-hrNfwqryrFLlmtQv2E-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;" edge="1" parent="1" source="j-hrNfwqryrFLlmtQv2E-14" target="j-hrNfwqryrFLlmtQv2E-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="760" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="j-hrNfwqryrFLlmtQv2E-27" target="j-hrNfwqryrFLlmtQv2E-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-34" value="推送nextContact&amp;nbsp;事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j-hrNfwqryrFLlmtQv2E-33">
+          <mxGeometry x="-0.0842" y="-4" relative="1" as="geometry">
+            <mxPoint y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="j-hrNfwqryrFLlmtQv2E-48" target="j-hrNfwqryrFLlmtQv2E-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-52" value="推送&amp;nbsp;shutdown&amp;nbsp;事件关闭轮呼" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j-hrNfwqryrFLlmtQv2E-51">
+          <mxGeometry x="0.2034" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-48" value="如果已无待联系" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j-hrNfwqryrFLlmtQv2E-44" target="j-hrNfwqryrFLlmtQv2E-48">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
