@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-29T03:15:09.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="-KIhQDgd6wUQ6GSxZ-M3" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-29T03:58:05.435Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="HwdeyBGZEtNM2uIkmGQx" version="20.3.7" type="github">
   <diagram name="Page-1" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
     <mxGraphModel dx="2521" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -34,28 +34,28 @@
         <mxCell id="j-hrNfwqryrFLlmtQv2E-53" value="发起关闭轮呼开关操作,&amp;nbsp;收到&amp;nbsp;&lt;span style=&quot;&quot;&gt;reloadCurrentPage&amp;nbsp;事件后刷新页面&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="j-hrNfwqryrFLlmtQv2E-1" vertex="1">
           <mxGeometry x="20" y="1000" width="180" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="QBYbEnMHOvJdnRV7xQiV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="j-hrNfwqryrFLlmtQv2E-1" source="j-hrNfwqryrFLlmtQv2E-61" target="j-hrNfwqryrFLlmtQv2E-78">
+        <mxCell id="QBYbEnMHOvJdnRV7xQiV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="j-hrNfwqryrFLlmtQv2E-1" source="j-hrNfwqryrFLlmtQv2E-61" target="j-hrNfwqryrFLlmtQv2E-78" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j-hrNfwqryrFLlmtQv2E-61" value="呼叫成功" style="rounded=1;whiteSpace=wrap;html=1;" parent="j-hrNfwqryrFLlmtQv2E-1" vertex="1">
           <mxGeometry x="250" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QBYbEnMHOvJdnRV7xQiV-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j-hrNfwqryrFLlmtQv2E-1" source="j-hrNfwqryrFLlmtQv2E-69" target="QBYbEnMHOvJdnRV7xQiV-4">
+        <mxCell id="QBYbEnMHOvJdnRV7xQiV-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="j-hrNfwqryrFLlmtQv2E-1" source="j-hrNfwqryrFLlmtQv2E-69" target="QBYbEnMHOvJdnRV7xQiV-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j-hrNfwqryrFLlmtQv2E-69" value="取消或呼叫失败或手动发起下次呼叫" style="rounded=1;whiteSpace=wrap;html=1;" parent="j-hrNfwqryrFLlmtQv2E-1" vertex="1">
           <mxGeometry x="250" y="1440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QBYbEnMHOvJdnRV7xQiV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="j-hrNfwqryrFLlmtQv2E-1" source="j-hrNfwqryrFLlmtQv2E-78" target="j-hrNfwqryrFLlmtQv2E-69">
+        <mxCell id="QBYbEnMHOvJdnRV7xQiV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="j-hrNfwqryrFLlmtQv2E-1" source="j-hrNfwqryrFLlmtQv2E-78" target="j-hrNfwqryrFLlmtQv2E-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j-hrNfwqryrFLlmtQv2E-78" value="再次呼叫" style="rounded=1;whiteSpace=wrap;html=1;" parent="j-hrNfwqryrFLlmtQv2E-1" vertex="1">
           <mxGeometry x="250" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QBYbEnMHOvJdnRV7xQiV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="j-hrNfwqryrFLlmtQv2E-1" source="QBYbEnMHOvJdnRV7xQiV-4" target="j-hrNfwqryrFLlmtQv2E-53">
+        <mxCell id="QBYbEnMHOvJdnRV7xQiV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="j-hrNfwqryrFLlmtQv2E-1" source="QBYbEnMHOvJdnRV7xQiV-4" target="j-hrNfwqryrFLlmtQv2E-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QBYbEnMHOvJdnRV7xQiV-4" value="挂断并结束轮呼" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j-hrNfwqryrFLlmtQv2E-1">
+        <mxCell id="QBYbEnMHOvJdnRV7xQiV-4" value="挂断并结束轮呼" style="rounded=1;whiteSpace=wrap;html=1;" parent="j-hrNfwqryrFLlmtQv2E-1" vertex="1">
           <mxGeometry x="250" y="1580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j-hrNfwqryrFLlmtQv2E-2" value="HttpServer rxk_saas" style="swimlane;startSize=23;" parent="1" vertex="1">
@@ -133,15 +133,34 @@
         <mxCell id="j-hrNfwqryrFLlmtQv2E-63" value="执行上层逻辑" style="whiteSpace=wrap;html=1;rounded=1;" parent="j-hrNfwqryrFLlmtQv2E-3" vertex="1">
           <mxGeometry x="60" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="j-hrNfwqryrFLlmtQv2E-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="j-hrNfwqryrFLlmtQv2E-3" source="j-hrNfwqryrFLlmtQv2E-73" target="j-hrNfwqryrFLlmtQv2E-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="CMMjVT12dhUXujPnyMMX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="j-hrNfwqryrFLlmtQv2E-3" source="j-hrNfwqryrFLlmtQv2E-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="1470" />
+              <mxPoint x="200" y="620" />
+              <mxPoint x="180" y="620" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="j-hrNfwqryrFLlmtQv2E-73" value="执行上层逻辑" style="whiteSpace=wrap;html=1;rounded=1;" parent="j-hrNfwqryrFLlmtQv2E-3" vertex="1">
           <mxGeometry x="60" y="1440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="j-hrNfwqryrFLlmtQv2E-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="j-hrNfwqryrFLlmtQv2E-3" source="j-hrNfwqryrFLlmtQv2E-63" target="j-hrNfwqryrFLlmtQv2E-22" edge="1">
+        <mxCell id="j-hrNfwqryrFLlmtQv2E-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="j-hrNfwqryrFLlmtQv2E-3" source="j-hrNfwqryrFLlmtQv2E-63" target="j-hrNfwqryrFLlmtQv2E-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="40" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="1140" />
+              <mxPoint x="40" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CMMjVT12dhUXujPnyMMX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="j-hrNfwqryrFLlmtQv2E-3" source="j-hrNfwqryrFLlmtQv2E-80" target="j-hrNfwqryrFLlmtQv2E-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="1340" />
+              <mxPoint x="220" y="765" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="j-hrNfwqryrFLlmtQv2E-80" value="缓存获取最近一次呼叫过的客户" style="whiteSpace=wrap;html=1;rounded=1;" parent="j-hrNfwqryrFLlmtQv2E-3" vertex="1">
